@@ -59,10 +59,10 @@ a {
 }
 
 .form-container {
-    max-width: 1400px;
+    max-width: 1200px;
     margin-top: 100px;
     border: 2px solid #ed1d61 ;
-    padding: 100px;
+    padding: 100px 200px;
     text-align: center;
     font-family: "Baskervville SC", serif;
         font-weight: 400; 
@@ -72,6 +72,46 @@ a {
 
 input {
     padding: 8px;
+}
+
+header {
+    max-width: 1400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)),
+        url(/images/Birthday.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+    border-radius: 10px;
+
+
+}
+
+.bg h2 {
+    font-size: 90px;
+    
+}
+
+.bg h1{
+    font-size: 50px;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    color: #ed1d61;
+    margin-top: 90px;
+
+}
+
+
+.bg {
+    max-width: 1400px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+            url(/images/bday.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 100px 100px;
+        border-radius: 10px;
+        margin: 150px 0;
 }
 
 
