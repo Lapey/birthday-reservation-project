@@ -19,21 +19,26 @@
     rel="stylesheet">
     <script src="https://smtpjs.com/v3/smtp.js">
     </script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="/app.js"></script>
 <link rel="stylesheet" href="css/styles.css">
 
 </head>
 <body>
+ 
+    <div class="container">
+    <a href="/notify.html" class="btnn">
+        Exit
+    </a>
     <div class="cntainer">
     <form onsubmit="emailSend(); reset(); return false;">
         <div class="form-container">
         <label for="name">Name</label>
-        <input type="text" id="name" name="name" required>
+        <input type="text" id="name" name="name" required autofocus>
         <br>
         <br>
         <label for="number">How many guest are you coming with?</label>
-        <input type="text" id="number" name="number" required>
+        <input type="text" id="number" name="number" class="number">
         <br>
         <br>
         <label for="email">Email</label>
@@ -41,10 +46,12 @@
         </div>
         <br>
         <br>
+       
         <button type="submit" class="btn" >
        Reserve
     </button>
-    
+  
+    </div>
     </form>
     </div>
    

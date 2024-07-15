@@ -29,6 +29,8 @@ p {
 
 }
 
+
+
 header {
     max-width: 1400px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)),
@@ -131,24 +133,121 @@ button {
         
 }
 
+
+
+
+
 .btn {
     font-family: "Ga Maamli", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
-    display: block;
-    margin: 0 auto;
+
     padding: 20px 30px;
     border-radius: 10px;
-    border:none ;
+    border: none;
     background: rgb(254, 192, 193);
     color: white;
     cursor: pointer;
-   
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
+
 }
 
  .btn:hover {
-    background: deeppink;
-    color: black;
-    transition: all 100ms ease-in-out;
+     background: deeppink;
+     color: black;
+     transition: all 100ms ease-in-out;
+ }
+
+ .btnn {
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+        border: 1px solid rgb(254, 192, 193) ;
+        padding: 20px 30px ;
+        background: rgb(254, 192, 193);
+        color: white;
+        border-radius: 10px;
+        margin-left: 1100px;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
+ }
+
+  .btnn:hover {
+      background: deeppink;
+      color: black;
+    border:deeppink;
+      transition: all 100ms ease-in-out;
+      
+  }
+
+  .container {
+    margin-top: 100px;
+  }
+
+ 
+@media (max-width:900px) {
+    .btnn {
+           
+            margin: 350px;
+            padding:10px 30px;
+;
+        }
+
+           .form-container {
+               max-width: 1200px;
+               margin-top: 100px;
+               border: 2px solid rgb(254, 192, 193);
+               padding: 70px 100px;
+               text-align:left;
+               font-family: "Baskervville SC", serif;
+               font-weight: 400;
+               border-radius: 5px;
+               font-size: 10px;
+            }
+
+            .number {
+                font-size: 7px;
+            }
+
+                 .btn {
+                     font-family: "Ga Maamli", sans-serif;
+                     font-weight: 400;
+                     font-style: normal;
+                     font-size: 20px;
+                     padding: 10px 30px;
+                     border-radius: 10px;
+                     border: none;
+                     background: rgb(254, 192, 193);
+                     color: white;
+                     cursor: pointer;
+                     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
+        
+                 }
+        
+       h1, h2,h3 {
+        font-size: 5px;
+        
+       
+       }
+    
+
+            
+
+
+
 }
+ 
+
+
+
+
+    
+      
+      
+       
+     
+       
+        
+      
+ 
